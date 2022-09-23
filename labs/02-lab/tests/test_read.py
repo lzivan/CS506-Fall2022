@@ -1,6 +1,5 @@
 import pytest
 import pandas as pd
-from csv import reader
 from cs506 import read
 
 @pytest.mark.parametrize('dataset,expected', [

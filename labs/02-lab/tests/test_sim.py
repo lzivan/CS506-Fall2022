@@ -1,7 +1,6 @@
 import pytest
 import random
-from numpy import dot
-from numpy.linalg import norm
+
 
 from cs506 import sim
 

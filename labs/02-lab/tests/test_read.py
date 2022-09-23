@@ -1,5 +1,6 @@
 import pytest
-
+import pandas as pd
+from csv import reader
 from cs506 import read
 
 @pytest.mark.parametrize('dataset,expected', [
@@ -15,7 +16,6 @@ from cs506 import read
 def test_read(dataset, expected):
     actual_data = read.read_csv(dataset)
     expected_data = expected
-
     assert len(actual_data) == len(expected_data)
     for i in range(len(actual_data)):
         assert actual_data[i] == expected_data[i]

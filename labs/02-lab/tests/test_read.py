@@ -1,5 +1,4 @@
 import pytest
-import pandas as pd
 from cs506 import read
 
 @pytest.mark.parametrize('dataset,expected', [

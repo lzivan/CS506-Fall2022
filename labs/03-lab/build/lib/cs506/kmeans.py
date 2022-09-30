@@ -3,6 +3,7 @@ from math import inf
 import random
 import csv
 from turtle import pd
+
 import numpy as np
 from cs506 import sim
 

@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
-cwd: /Users/michael/CS506-Fall2022/labs/02-lab
-cmd: /Users/michael/opt/anaconda3/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+cwd: /Users/michael/CS506-Fall2022/labs/03-lab
+cmd: /Applications/Xcode.app/Contents/Developer/usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
 writing cs506.egg-info/PKG-INFO
@@ -11,9 +11,11 @@ writing top-level names to cs506.egg-info/top_level.txt
 reading manifest file 'cs506.egg-info/SOURCES.txt'
 writing manifest file 'cs506.egg-info/SOURCES.txt'
 running check
+/Users/michael/Library/Python/3.8/lib/python/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
+  warnings.warn(
 warning: check: missing required meta-data: url
 
-warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) should be supplied
 
 creating cs506-0.0.1
 creating cs506-0.0.1/cs506
@@ -22,6 +24,8 @@ copying files to cs506-0.0.1...
 copying README.md -> cs506-0.0.1
 copying setup.py -> cs506-0.0.1
 copying cs506/__init__.py -> cs506-0.0.1/cs506
+copying cs506/cli.py -> cs506-0.0.1/cs506
+copying cs506/kmeans.py -> cs506-0.0.1/cs506
 copying cs506/read.py -> cs506-0.0.1/cs506
 copying cs506/sim.py -> cs506-0.0.1/cs506
 copying cs506.egg-info/PKG-INFO -> cs506-0.0.1/cs506.egg-info
@@ -41,6 +45,8 @@ adding 'cs506-0.0.1/setup.py'
 adding 'cs506-0.0.1/setup.cfg'
 adding 'cs506-0.0.1/cs506/sim.py'
 adding 'cs506-0.0.1/cs506/__init__.py'
+adding 'cs506-0.0.1/cs506/kmeans.py'
+adding 'cs506-0.0.1/cs506/cli.py'
 adding 'cs506-0.0.1/cs506/read.py'
 adding 'cs506-0.0.1/cs506.egg-info/PKG-INFO'
 adding 'cs506-0.0.1/cs506.egg-info/SOURCES.txt'

@@ -1,5 +1,3 @@
-import numpy as np
-
 def euclidean_dist(x, y):
     if x == None or y == None:
         return 0

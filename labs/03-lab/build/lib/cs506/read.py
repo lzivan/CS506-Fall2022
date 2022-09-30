@@ -1,5 +1,5 @@
 from csv import reader
-import numpy as np
+
 
 def read_csv(csv_file_path):
     """
